@@ -5,9 +5,10 @@ public class MyProgram
     public static void Main(string[] args)
     {
         double w;
-
+        Console.WriteLine("Podaj wagę(kg)");
         w = inputValue();
         double h;
+        Console.WriteLine("Podaj wzrost(m)");
 
         h = inputValue();
         double bMI;

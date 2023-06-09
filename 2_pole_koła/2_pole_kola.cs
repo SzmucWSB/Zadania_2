@@ -8,16 +8,16 @@ public class MyProgram
 
         liczbaPi = Math.PI;
         double p;
-
+        Console.WriteLine("Podaj pole: ");        
         p = inputValue();
         double r;
 
         r = Math.Sqrt(p / liczbaPi);
-        Console.WriteLine(r);
+        Console.WriteLine("Promień wynosi: " + r);
         double o;
 
         o = 2 * liczbaPi * r;
-        Console.WriteLine(o);
+        Console.WriteLine("Obwód wynosi: " + o);
     }
 
     // .NET can only read single characters or entire lines from the

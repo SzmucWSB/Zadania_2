@@ -14,7 +14,7 @@ public class MyProgram
         double bMI;
 
         bMI = w / Math.Pow(h, 2);
-        Console.WriteLine(bMI);
+        Console.WriteLine("Twoje BMI wynosi: " + bMI);
     }
 
     // .NET can only read single characters or entire lines from the
